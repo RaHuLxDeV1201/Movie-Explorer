@@ -239,7 +239,7 @@ function App() {
           <div
             key={toast.id}
             className={`px-4 py-3 rounded-xl shadow-2xl font-medium text-sm border flex items-center gap-2 transform translate-y-0 animate-bounce text-white ${toast.type === "success" ? "bg-emerald-600 border-emerald-500" :
-                toast.type === "error" ? "bg-rose-600 border-rose-500" : "bg-cyan-600 border-cyan-500"
+              toast.type === "error" ? "bg-rose-600 border-rose-500" : "bg-cyan-600 border-cyan-500"
               }`}
           >
             {toast.type === "success" && "✨"}
@@ -303,8 +303,8 @@ function App() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className={`px-4 py-2 pr-8 border rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-sm h-full w-full ${isDark
-                    ? 'bg-slate-800 border-slate-700 text-white placeholder-slate-400'
-                    : 'bg-white border-slate-300 text-slate-900 placeholder-slate-400'
+                  ? 'bg-slate-800 border-slate-700 text-white placeholder-slate-400'
+                  : 'bg-white border-slate-300 text-slate-900 placeholder-slate-400'
                   }`}
               />
               {searchQuery && (
@@ -373,13 +373,13 @@ function App() {
           </button>
         </div>
       )}
-<main>
+      <main>
         {/* 1. Empty State Warning Layer (Only renders if the array is completely empty) */}
         {!loading && displayedMovies.length === 0 && (
           <div className="text-center py-20 w-full">
             <p className={`text-xl font-medium ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
-              {showWatchlistOnly 
-                ? "📚 Filter subset criteria returned empty matches inside Watchlist storage." 
+              {showWatchlistOnly
+                ? "📚 Filter subset criteria returned empty matches inside Watchlist storage."
                 : "🔍 No movies found matching criteria."}
             </p>
           </div>
@@ -390,23 +390,21 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full">
             {displayedMovies.map((movie, index) => {
               const isSaved = watchlist.some(item => item.id === movie.id);
-              
+
               // Secure distinct structural key to force React to destroy the component immediately on deletion
               const uniqueKey = movie.id ? `movie-card-${movie.id}` : `movie-fallback-${index}`;
 
               return (
-                <div 
-                  key={uniqueKey} 
+                <div
+                  key={uniqueKey}
                   onClick={() => setSelectedMovieId(movie.id)}
-                  className={`relative rounded-xl overflow-hidden shadow-lg border p-4 flex flex-col justify-between transition cursor-pointer group ${
-                    isDark ? 'bg-slate-800 border-slate-700 hover:border-cyan-400' : 'bg-white border-slate-200 hover:border-cyan-600 hover:shadow-xl'
-                  }`}
+                  className={`relative rounded-xl overflow-hidden shadow-lg border p-4 flex flex-col justify-between transition cursor-pointer group ${isDark ? 'bg-slate-800 border-slate-700 hover:border-cyan-400' : 'bg-white border-slate-200 hover:border-cyan-600 hover:shadow-xl'
+                    }`}
                 >
                   <button
                     onClick={(e) => toggleWatchlist(e, movie)}
-                    className={`absolute top-6 right-6 z-10 p-2.5 rounded-full border transition shadow-md ${
-                      isDark ? 'bg-slate-900/90 border-slate-700 hover:bg-cyan-500 hover:text-slate-900' : 'bg-white/90 border-slate-200 hover:bg-cyan-600 hover:text-white'
-                    }`}
+                    className={`absolute top-6 right-6 z-10 p-2.5 rounded-full border transition shadow-md ${isDark ? 'bg-slate-900/90 border-slate-700 hover:bg-cyan-500 hover:text-slate-900' : 'bg-white/90 border-slate-200 hover:bg-cyan-600 hover:text-white'
+                      }`}
                     title={isSaved ? "Remove from Watchlist" : "Add to Watchlist"}
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={isSaved ? (isDark ? "#22d3ee" : "#0891b2") : "none"} stroke={isSaved ? (isDark ? "#22d3ee" : "#0891b2") : "currentColor"} className="w-5 h-5">
@@ -415,8 +413,8 @@ function App() {
                   </button>
 
                   <div>
-                    <img 
-                      src={movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : 'https://via.placeholder.com/500x750?text=No+Image'} 
+                    <img
+                      src={movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : 'https://via.placeholder.com/500x750?text=No+Image'}
                       alt={movie.title}
                       className="w-full h-72 object-cover rounded-lg mb-4 group-hover:scale-[1.02] transition duration-300"
                     />
@@ -424,7 +422,7 @@ function App() {
                     <p className={`text-sm mb-2 font-medium ${isDark ? 'text-cyan-300' : 'text-cyan-600'}`}>{getGenreNames(movie.genre_ids)}</p>
                     <p className={`text-xs line-clamp-3 mb-4 ${isDark ? 'text-slate-400' : 'text-slate-600'}`}>{movie.overview || "No description available."}</p>
                   </div>
-                  
+
                   <div className={`flex justify-between items-center text-sm font-medium border-t pt-3 mt-2 ${isDark ? 'border-slate-700' : 'border-slate-150'}`}>
                     <span className="text-amber-500">⭐ {movie.vote_average?.toFixed(1) || "N/A"}</span>
                     <span className={isDark ? 'text-slate-400' : 'text-slate-500'}>
@@ -459,8 +457,8 @@ function App() {
         <button
           onClick={scrollToTop}
           className={`fixed bottom-20 right-5 z-40 p-3 rounded-full shadow-2xl transition-all duration-300 border focus:outline-none cursor-pointer transform hover:scale-110 active:scale-95 ${isDark
-              ? 'bg-slate-800 border-slate-700 text-cyan-400 hover:bg-slate-700 hover:text-cyan-300'
-              : 'bg-white border-slate-300 text-cyan-600 hover:bg-slate-100 hover:text-cyan-700'
+            ? 'bg-slate-800 border-slate-700 text-cyan-400 hover:bg-slate-700 hover:text-cyan-300'
+            : 'bg-white border-slate-300 text-cyan-600 hover:bg-slate-100 hover:text-cyan-700'
             }`}
           title="Back to Top"
         >
