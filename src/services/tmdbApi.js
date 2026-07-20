@@ -1,6 +1,6 @@
-/**
- * 📡 TMDB API INTEGRATION SERVICE LAYER
- * Documentation Source: https://developer.themoviedb.org/
+/*
+ TMDB API INTEGRATION SERVICE LAYER
+ Documentation Source: https://developer.themoviedb.org/
  */
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
