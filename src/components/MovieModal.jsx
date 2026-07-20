@@ -32,7 +32,6 @@ export default function MovieModal({ movieId, onClose }) {
   if (!movieId) return null;
 
   return (
-    // Backdrop click-to-close added here
     <div
       onClick={onClose}
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
