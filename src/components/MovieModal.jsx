@@ -5,6 +5,15 @@ export default function MovieModal({ movieId, onClose }) {
   const [movie, setMovie] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  // Close modal on Escape key press
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [onClose]);
+
   useEffect(() => {
     const fetchDetails = async () => {
       try {
@@ -23,10 +32,17 @@ export default function MovieModal({ movieId, onClose }) {
   if (!movieId) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
-      <div className="relative w-full max-w-3xl bg-slate-800 text-white rounded-2xl overflow-hidden shadow-2xl border border-slate-700 flex flex-col md:flex-row">
-        
-        <button 
+    // Backdrop click-to-close added here
+    <div
+      onClick={onClose}
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+    >
+      {/* e.stopPropagation() prevents closing when clicking inside the modal content */}
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="relative w-full max-w-3xl bg-slate-800 text-white rounded-2xl overflow-hidden shadow-2xl border border-slate-700 flex flex-col md:flex-row"
+      >
+        <button
           onClick={onClose}
           className="absolute top-4 right-4 z-10 bg-slate-900/80 hover:bg-cyan-500 hover:text-slate-900 transition p-2 rounded-full text-slate-300 font-bold"
         >
@@ -40,8 +56,8 @@ export default function MovieModal({ movieId, onClose }) {
         ) : movie ? (
           <>
             <div className="w-full md:w-2/5 h-64 md:h-auto">
-              <img 
-                src={movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : 'https://via.placeholder.com/500x750?text=No+Image'} 
+              <img
+                src={movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : 'https://via.placeholder.com/500x750?text=No+Image'}
                 alt={movie.title}
                 className="w-full h-full object-cover"
               />
