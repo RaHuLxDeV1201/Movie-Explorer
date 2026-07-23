@@ -8,9 +8,9 @@
 
 ## A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
 
-<br>
+
 ![Movie-Explorer Preview](./public/preview.png)
-</br>
+
 ---
 
 # Data & API Usage
