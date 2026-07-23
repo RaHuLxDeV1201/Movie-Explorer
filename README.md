@@ -1,9 +1,18 @@
 # 🎬 Movie Explorer
-
+<!-- Project Status & Live Demo Badges -->
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-brightgreen?style=for-the-badge&logo=githubpages)](https://rahulxdev1201.github.io/Movie-Explorer/)
-[![Lighthouse Best Practices](https://img.shields.io/badge/Lighthouse-100%2F100%20Best%20Practices-success?style=for-the-badge&logo=googlechrome)]
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rahulxdev1201/Movie-Explorer)
 
+<!-- Tech Stack Badges -->
+[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
 
+<!-- Google Lighthouse Audit Badges -->
+[![Performance](https://img.shields.io/badge/Performance-92%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-90%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![Best Practices](https://img.shields.io/badge/Best_Practices-100%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![SEO](https://img.shields.io/badge/SEO-91%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
 > A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
 
 ---
