@@ -4,10 +4,15 @@
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-brightgreen?style=for-the-badge&logo=githubpages)](https://rahulxdev1201.github.io/Movie-Explorer/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rahulxdev1201/Movie-Explorer)
 
-
-
 ## A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
 
+---
+
+## 📖 Overview
+
+**Movie Explorer** is a modern frontend web application that enables users to search, filter, and explore movie data in real time. The project prioritizes minimal load times, zero third-party framework overhead, and full web accessibility compliance (WCAG).
+
+🔗 **Live Production URL:** [https://rahulxdev1201.github.io/Movie-Explorer/](https://rahulxdev1201.github.io/Movie-Explorer/)
 
 ![Movie-Explorer Preview](./public/preview.png)
 
