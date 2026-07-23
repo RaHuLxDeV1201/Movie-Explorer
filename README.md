@@ -15,7 +15,6 @@ This project relies exclusively on the official TMDB API platform to fetch real-
 [![SEO](https://img.shields.io/badge/SEO-91%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
 > A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
 
-<<<<<<< HEAD
 # Implemented Endpoints Matrix
 The application connects directly to the following required data collection points:
 1. **Popular/Trending Feed**: `GET /movie/popular` — Fetches the seed list of trending titles on app load.
