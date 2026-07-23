@@ -61,9 +61,6 @@
 | **HTML5** | Semantic structural backbone and accessibility layout |
 | **CSS3** | Custom responsive styling, animations, and CSS custom properties |
 | **JavaScript (ES6+)** | Dynamic DOM manipulation, async/await API integration, and event handling |
-| **GitHub Pages** | Continuous deployment and static site hosting |
-| **Google Lighthouse** | Continuous performance benchmarking and quality auditing |
-
 <!-- Tech Stack Badges -->
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
