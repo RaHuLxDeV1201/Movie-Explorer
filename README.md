@@ -90,4 +90,7 @@ Open index.html directly in your browser or run it using a local server extensio
 🌐 Deployment
 The application is automatically hosted and deployed via GitHub Pages. Any updates pushed to the main branch immediately reflect in the live environment.
 
+<p align="center">
+  Engineered by <a href="https://github.com/RaHuLxDeV1201"><strong>RaHuLxDeV</strong></a>
+</p>
 
