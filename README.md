@@ -1,66 +1,70 @@
-# 🎬 Movie Explorer Dashboard
+# 🎬 Movie Explorer
 
-[![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-brightgreen?style=for-the-badge&logo=githubpages)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![Lighthouse Best Practices](https://img.shields.io/badge/Lighthouse-100%2F100%20Best%20Practices-success?style=for-the-badge&logo=googlechrome)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#tech-stack)
 
-A high-performance, responsive frontend application built to explore movies using **The Movie Database (TMDB) API**. Built with modern React, Vite, and Tailwind CSS v4, this dashboard offers real-time trending feeds, debounced instant search, genre filtering, and deep cinematic metadata metrics.
-
----
-
-## 📑 Table of Contents
-
-- [Overview & Key Features](#-overview--key-features)
-- [Tech Stack](#-tech-stack)
-- [Project Architecture](#-project-architecture)
-- [API Integration & Specifications](#-api-integration--specifications)
-  - [Implemented Endpoints Matrix](#implemented-endpoints-matrix)
-  - [Graphic Content Delivery](#graphic-content-delivery)
-  - [Field Extraction Schemas](#field-extraction-schemas)
-- [Engineering Challenges & Insights](#-engineering-challenges--insights)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation & Setup](#installation--setup)
-- [License](#-license)
+> A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
 
 ---
 
-## ✨ Overview & Key Features
+## 📌 Table of Contents
+* [Overview](#-overview)
+* [Lighthouse Performance Metrics](#-lighthouse-performance-metrics)
+* [Core Capabilities](#-core-capabilities)
+* [Tech Stack](#-tech-stack)
+* [Local Development](#-local-development)
+* [Deployment](#-deployment)
+* [Author](#-author)
 
-* **Trending & Popular Feed:** Dynamic discovery of top titles upon application launch.
-* **Debounced Search Directory:** Asynchronous text query execution with optimized request throttling.
-* **Detailed Metric Modals:** Deep dive into movie runtimes, native localized translations, audience rating metrics, and language metadata.
-* **Smart Category Filtering:** Clean state management when switching between genre tags and infinite scroll pages.
-* **Ultra-Responsive UI:** Modern layout constructed with Tailwind CSS v4 design primitives.
+---
+
+## 📖 Overview
+
+**Movie Explorer** is a modern frontend web application that enables users to search, filter, and explore movie data in real time. The project prioritizes minimal load times, zero third-party framework overhead, and full web accessibility compliance (WCAG).
+
+🔗 **Live Production URL:** [https://rahulxdev1201.github.io/Movie-Explorer/](https://rahulxdev1201.github.io/Movie-Explorer/)
+
+---
+
+## 📊 Lighthouse Performance Metrics
+
+`Movie Explorer` undergoes automated audits using Google Lighthouse to guarantee optimal end-user performance, search engine visibility, and adherence to modern web standards.
+
+| Metric Category | Score | Audit Status | Highlights |
+| :--- | :---: | :---: | :--- |
+| 🛡️ **Best Practices** | **100 / 100** | **Passed** | Fully compliant with modern web security & standards |
+| ⚡ **Performance** | **92 / 100** | **Passed** | Optimized asset rendering and minimal cumulative layout shifts |
+| 🔍 **SEO** | **91 / 100** | **Passed** | Structured metadata and crawlable DOM architecture |
+| ♿ **Accessibility** | **90 / 100** | **Passed** | High-contrast color palette, ARIA standards, and screen-reader friendly |
+
+---
+
+## ✨ Core Capabilities
+
+* **Real-Time Data Retrieval:** Asynchronous API calls deliver instant movie metadata and search results.
+* **Fully Responsive Design:** Adapts effortlessly across mobile, tablet, and desktop viewports using CSS Grid & Flexbox.
+* **Optimized Asset Delivery:** Clean, modular code structure ensures low latency and high First Contentful Paint (FCP) scores.
+* **Semantic & Accessible Markup:** Built with screen-reader accessible elements and WCAG-compliant color ratios.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Core Framework:** [React 18+](https://react.dev/)
-* **Build System & HMR:** [Vite](https://vitejs.dev/)
-* **Styling Engine:** [Tailwind CSS v4](https://tailwindcss.com/)
-* **Data Provider:** [TMDB REST API v3](https://developer.themoviedb.org/)
-* **HTTP Client:** Native `Fetch API` / `Axios`
+| Technology | Purpose |
+| :--- | :--- |
+| **HTML5** | Semantic structural backbone and accessibility layout |
+| **CSS3** | Custom responsive styling, animations, and CSS custom properties |
+| **JavaScript (ES6+)** | Dynamic DOM manipulation, async/await API integration, and event handling |
+| **GitHub Pages** | Continuous deployment and static site hosting |
+| **Google Lighthouse** | Continuous performance benchmarking and quality auditing |
 
 ---
 
-## 📁 Project Architecture
+## 🚀 Local Development
 
-```text
-movie-explorer-dashboard/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── assets/          # Static images & icons
-│   ├── components/      # Modular UI components (Cards, Modals, Navbar, Filters)
-│   ├── hooks/           # Custom React hooks (useDebounce, useMovies)
-│   ├── services/        # TMDB API client configuration & endpoints
-│   ├── styles/          # Tailwind setup & custom CSS variables
-│   ├── utils/           # Helper utilities (formatters, genre mappers)
-│   ├── App.jsx          # Root application layout
-│   └── main.jsx         # Application entry point
-├── .env.example         # Environment variable template
-├── package.json
-└── vite.config.js
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone [https://github.com/rahulxdev1201/Movie-Explorer.git](https://github.com/rahulxdev1201/Movie-Explorer.git)
