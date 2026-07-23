@@ -1,8 +1,9 @@
 # 🎬 Movie Explorer
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-brightgreen?style=for-the-badge&logo=githubpages)](https://rahulxdev1201.github.io/Movie-Explorer/)
-[![Lighthouse Best Practices](https://img.shields.io/badge/Lighthouse-100%2F100%20Best%20Practices-success?style=for-the-badge&logo=googlechrome)](https://rahulxdev1201.github.io/Movie-Explorer/)
-[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#tech-stack)
+[![Lighthouse Best Practices](https://img.shields.io/badge/Lighthouse-100%2F100%20Best%20Practices-success?style=for-the-badge&logo=googlechrome)]
+
+(https://rahulxdev1201.github.io/Movie-Explorer/)
 
 > A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
 
@@ -58,6 +59,9 @@
 | **JavaScript (ES6+)** | Dynamic DOM manipulation, async/await API integration, and event handling |
 | **GitHub Pages** | Continuous deployment and static site hosting |
 | **Google Lighthouse** | Continuous performance benchmarking and quality auditing |
+
+[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#tech-stack)
+
 
 ---
 
