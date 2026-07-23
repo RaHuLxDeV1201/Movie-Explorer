@@ -14,7 +14,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState(""); // Current text in the search bar
   const [sortBy, setSortBy] = useState("popularity"); // Current sorting criteria
   const [selectedGenre, setSelectedGenre] = useState(""); // Current genre filter
-  
+
   // --- UI/Loading State Variables ---
   const [loading, setLoading] = useState(true); // Tracks active network requests
   const [error, setError] = useState(null); // Stores error messages if API fails
@@ -261,7 +261,7 @@ function App() {
     } else if (sortBy === "title") {
       list.sort((a, b) => a.title.localeCompare(b.title));
     }
-    
+
     return list;
   };
 
