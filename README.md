@@ -30,6 +30,7 @@
 
 🔗 **Live Production URL:** [https://rahulxdev1201.github.io/Movie-Explorer/](https://rahulxdev1201.github.io/Movie-Explorer/)
 
+
 ---
 
 ## 📊 Lighthouse Performance Metrics
@@ -72,19 +73,19 @@
 
 To run this project locally on your machine, follow these steps:
 
-1. **Clone the Repository**
-   ```text
-   git clone [https://github.com/rahulxdev1201/Movie-Explorer.git](https://github.com/rahulxdev1201/Movie-Explorer.git)
-   ```
+**1. Clone the Repository**
+```text
+git clone [https://github.com/rahulxdev1201/Movie-Explorer.git](https://github.com/rahulxdev1201/Movie-Explorer.git)
+```
 
-2. **Navigate to the Directory**
+**2. Navigate to the Directory**
 ```text
 cd Movie-Explorer
 ```
 ## Launch the Application
 Open index.html directly in your browser or run it using a local server extension (e.g., VS Code Live Server).
 
-🌐 Deployment
+## 🌐 Deployment
 The application is automatically hosted and deployed via GitHub Pages. Any updates pushed to the main branch immediately reflect in the live environment.
 
 <p align="center">
