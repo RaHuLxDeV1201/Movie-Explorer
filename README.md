@@ -68,3 +68,20 @@ To run this project locally on your machine, follow these steps:
 1. **Clone the Repository**
    ```bash
    git clone [https://github.com/rahulxdev1201/Movie-Explorer.git](https://github.com/rahulxdev1201/Movie-Explorer.git)
+
+   Navigate to the Directory
+
+Bash
+cd Movie-Explorer
+Launch the Application
+Open index.html directly in your browser or run it using a local server extension (e.g., VS Code Live Server).
+
+🌐 Deployment
+The application is automatically hosted and deployed via GitHub Pages. Any updates pushed to the main branch immediately reflect in the live environment.
+
+👤 Author
+Rahul
+
+GitHub: @rahulxdev1201
+
+Live App: Movie Explorer
