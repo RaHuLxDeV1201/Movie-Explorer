@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-brightgreen?style=for-the-badge&logo=githubpages)](https://rahulxdev1201.github.io/Movie-Explorer/)
 [![Lighthouse Best Practices](https://img.shields.io/badge/Lighthouse-100%2F100%20Best%20Practices-success?style=for-the-badge&logo=googlechrome)]
-(https://rahulxdev1201.github.io/Movie-Explorer/)
+
 
 > A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
 
