@@ -4,11 +4,9 @@
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rahulxdev1201/Movie-Explorer)
 
 
-<<<<<<< HEAD
 # Data & API Usage
 This project relies exclusively on the official TMDB API platform to fetch real-time movie feed assets, queries, and deep metrics metadata.
-=======
->>>>>>> 340eee64640fc9312069b4fb49cf18fafab05717
+
 
 <!-- Google Lighthouse Audit Badges -->
 [![Performance](https://img.shields.io/badge/Performance-92%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
