@@ -4,14 +4,16 @@
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-brightgreen?style=for-the-badge&logo=githubpages)](https://rahulxdev1201.github.io/Movie-Explorer/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rahulxdev1201/Movie-Explorer)
 
-![Movie-Explorer Preview](./public/preview.png)
+
 
 
 
 **A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.**
 ---
 
+![Movie-Explorer Preview](./public/preview.png)
 
+---
 
 # Data & API Usage
 This project relies exclusively on the official TMDB API platform to fetch real-time movie feed assets, queries, and deep metrics metadata.
