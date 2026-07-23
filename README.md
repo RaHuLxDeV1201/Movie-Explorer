@@ -1,12 +1,23 @@
-# 🎬 Movie Explorer Dashboard
+# 🎬 Movie Explorer
+<!-- Project Status & Live Demo Badges -->
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-brightgreen?style=for-the-badge&logo=githubpages)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rahulxdev1201/Movie-Explorer)
 
-A highly responsive frontend application built with React, Vite, and Tailwind CSS v4 to discover movies using The Movie Database (TMDB) API.
 
+<<<<<<< HEAD
 # Data & API Usage
 This project relies exclusively on the official TMDB API platform to fetch real-time movie feed assets, queries, and deep metrics metadata.
+=======
+>>>>>>> 340eee64640fc9312069b4fb49cf18fafab05717
 
-* **Official API Documentation**: [TMDB Docs](https://developer.themoviedb.org/)
+<!-- Google Lighthouse Audit Badges -->
+[![Performance](https://img.shields.io/badge/Performance-92%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-90%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![Best Practices](https://img.shields.io/badge/Best_Practices-100%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
+[![SEO](https://img.shields.io/badge/SEO-91%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
+> A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
 
+<<<<<<< HEAD
 # Implemented Endpoints Matrix
 The application connects directly to the following required data collection points:
 1. **Popular/Trending Feed**: `GET /movie/popular` — Fetches the seed list of trending titles on app load.
@@ -24,3 +35,85 @@ All layout post elements utilize the standard structural rendering format:
 # Development Challenges I Faced & Overcame
 1. **Search Debouncing Issues:** Initially, my application was hammering the TMDB API every time a key was pressed. I fixed this by setting up a custom `setTimeout` inside a cleanup `useEffect` block to wait 500ms before sending a network request.
 2. **Infinite Scroll vs Filters:** Synchronizing the pagination page counts when changing genre tags was tricky because old lists kept sticking around. I solved this by triggering a manual state clear hook array `setMovies([])` right when active categories shift.
+=======
+---
+
+## 📌 Table of Contents
+* [Overview](#-overview)
+* [Lighthouse Performance Metrics](#-lighthouse-performance-metrics)
+* [Core Capabilities](#-core-capabilities)
+* [Tech Stack](#-tech-stack)
+* [Local Development](#-local-development)
+* [Deployment](#-deployment)
+
+---
+
+## 📖 Overview
+
+**Movie Explorer** is a modern frontend web application that enables users to search, filter, and explore movie data in real time. The project prioritizes minimal load times, zero third-party framework overhead, and full web accessibility compliance (WCAG).
+
+🔗 **Live Production URL:** [https://rahulxdev1201.github.io/Movie-Explorer/](https://rahulxdev1201.github.io/Movie-Explorer/)
+
+
+---
+
+## 📊 Lighthouse Performance Metrics
+
+`Movie Explorer` undergoes automated audits using Google Lighthouse to guarantee optimal end-user performance, search engine visibility, and adherence to modern web standards.
+
+| Metric Category | Score | Audit Status | Highlights |
+| :--- | :---: | :---: | :--- |
+| 🛡️ **Best Practices** | **100 / 100** | **Passed** | Fully compliant with modern web security & standards |
+| ⚡ **Performance** | **92 / 100** | **Passed** | Optimized asset rendering and minimal cumulative layout shifts |
+| 🔍 **SEO** | **91 / 100** | **Passed** | Structured metadata and crawlable DOM architecture |
+| ♿ **Accessibility** | **90 / 100** | **Passed** | High-contrast color palette, ARIA standards, and screen-reader friendly |
+
+---
+
+## ✨ Core Capabilities
+
+* **Real-Time Data Retrieval:** Asynchronous API calls deliver instant movie metadata and search results.
+* **Fully Responsive Design:** Adapts effortlessly across mobile, tablet, and desktop viewports using CSS Grid & Flexbox.
+* **Optimized Asset Delivery:** Clean, modular code structure ensures low latency and high First Contentful Paint (FCP) scores.
+* **Semantic & Accessible Markup:** Built with screen-reader accessible elements and WCAG-compliant color ratios.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+| :--- | :--- |
+| **HTML5** | Semantic structural backbone and accessibility layout |
+| **CSS3** | Custom responsive styling, animations, and CSS custom properties |
+| **JavaScript (ES6+)** | Dynamic DOM manipulation, async/await API integration, and event handling |
+<!-- Tech Stack Badges -->
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+
+---
+
+## 🚀 Local Development
+
+To run this project locally on your machine, follow these steps:
+
+**1. Clone the Repository**
+```text
+git clone https://github.com/rahulxdev1201/Movie-Explorer.git
+```
+
+**2. Navigate to the Directory**
+```text
+cd Movie-Explorer
+```
+## Launch the Application
+Open index.html directly in your browser or run it using a local server extension (e.g., VS Code Live Server).
+
+## 🌐 Deployment
+The application is automatically hosted and deployed via GitHub Pages. Any updates pushed to the main branch immediately reflect in the live environment.
+
+<p align="center">
+  Engineered by <a href="https://github.com/RaHuLxDeV1201"><strong>RaHuLxDeV</strong></a>
+</p>
+
+>>>>>>> 340eee64640fc9312069b4fb49cf18fafab05717
