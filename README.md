@@ -75,7 +75,7 @@ To run this project locally on your machine, follow these steps:
 
 **1. Clone the Repository**
 ```text
-git clone [https://github.com/rahulxdev1201/Movie-Explorer.git](https://github.com/rahulxdev1201/Movie-Explorer.git)
+git clone https://github.com/rahulxdev1201/Movie-Explorer.git
 ```
 
 **2. Navigate to the Directory**
