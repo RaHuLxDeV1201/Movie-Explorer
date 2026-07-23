@@ -6,8 +6,12 @@
 
 ![Movie-Explorer Preview](./public/preview.png)
 
-A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.
+
+
+**A lightweight, high-performance web application designed for seamless media discovery. Built with a focus on web performance, accessible UI/UX standards, and clean frontend architecture.**
 ---
+
+
 
 # Data & API Usage
 This project relies exclusively on the official TMDB API platform to fetch real-time movie feed assets, queries, and deep metrics metadata.
