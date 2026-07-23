@@ -3,10 +3,7 @@
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-brightgreen?style=for-the-badge&logo=githubpages)](https://rahulxdev1201.github.io/Movie-Explorer/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/rahulxdev1201/Movie-Explorer)
 
-<!-- Tech Stack Badges -->
-[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+
 
 <!-- Google Lighthouse Audit Badges -->
 [![Performance](https://img.shields.io/badge/Performance-92%2F100-0CCE6B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rahulxdev1201.github.io/Movie-Explorer/)
@@ -68,7 +65,10 @@
 | **GitHub Pages** | Continuous deployment and static site hosting |
 | **Google Lighthouse** | Continuous performance benchmarking and quality auditing |
 
-[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#tech-stack)
+<!-- Tech Stack Badges -->
+[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
 
 
 ---
