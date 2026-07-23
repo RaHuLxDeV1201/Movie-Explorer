@@ -21,7 +21,6 @@
 * [Tech Stack](#-tech-stack)
 * [Local Development](#-local-development)
 * [Deployment](#-deployment)
-* [Author](#-author)
 
 ---
 
@@ -66,10 +65,9 @@
 | **Google Lighthouse** | Continuous performance benchmarking and quality auditing |
 
 <!-- Tech Stack Badges -->
-[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
-
+[![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 
 ---
 
@@ -78,22 +76,18 @@
 To run this project locally on your machine, follow these steps:
 
 1. **Clone the Repository**
-   ```bash
+   ```text
    git clone [https://github.com/rahulxdev1201/Movie-Explorer.git](https://github.com/rahulxdev1201/Movie-Explorer.git)
+   ```
 
-   Navigate to the Directory
-
-Bash
+2. **Navigate to the Directory**
+```text
 cd Movie-Explorer
-Launch the Application
+```
+## Launch the Application
 Open index.html directly in your browser or run it using a local server extension (e.g., VS Code Live Server).
 
 🌐 Deployment
 The application is automatically hosted and deployed via GitHub Pages. Any updates pushed to the main branch immediately reflect in the live environment.
 
-👤 Author
-Rahul
 
-GitHub: @rahulxdev1201
-
-Live App: Movie Explorer
