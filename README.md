@@ -141,4 +141,3 @@ The application is automatically hosted and deployed via GitHub Pages. Any updat
   Engineered by <a href="https://github.com/RaHuLxDeV1201"><strong>RaHuLxDeV</strong></a>
 </p>
 
->>>>>>> 340eee64640fc9312069b4fb49cf18fafab05717
