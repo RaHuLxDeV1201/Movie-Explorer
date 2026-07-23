@@ -8,6 +8,22 @@
 
 ---
 
+## 📌 Table of Contents
+* [Overview](#-overview)
+* [Data & API Usage](#-Data-&-API-Usage)
+* [Implemented Endpoint Matrix](#-Implemented-Endpoint-Matrix)
+* [Graphic Content Delivery Format](#-Graphic-Content-Delivery-Format)
+* [Field Extraction Schemas](#-Field-Extraction-Schemas)
+* [Development Challenges| Faced & Overcame](#-Development-Challenges-|-Faced-&-Overcame)
+* [Lighthouse Performance Metrics](#-lighthouse-performance-metrics)
+* [Core Capabilities](#-core-capabilities)
+* [Tech Stack](#-tech-stack)
+* [Local Development](#-local-development)
+* [Deployment](#-deployment)
+
+---
+
+
 ## 📖 Overview
 
 **Movie Explorer** is a modern frontend web application that enables users to search, filter, and explore movie data in real time. The project prioritizes minimal load times, zero third-party framework overhead, and full web accessibility compliance (WCAG).
@@ -49,15 +65,6 @@ All layout post elements utilize the standard structural rendering format:
 =======
 ---
 
-## 📌 Table of Contents
-* [Overview](#-overview)
-* [Lighthouse Performance Metrics](#-lighthouse-performance-metrics)
-* [Core Capabilities](#-core-capabilities)
-* [Tech Stack](#-tech-stack)
-* [Local Development](#-local-development)
-* [Deployment](#-deployment)
-
----
 
 ## 📖 Overview
 
